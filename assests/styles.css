@@ -1,0 +1,12 @@
+body{
+    background-color: black;
+    color: white;
+    font-family: 'Roboto';
+}
+.nav-bar{
+    justify-content: flex-end;
+}
+.nav-items{
+    display: inline-block;
+
+}
