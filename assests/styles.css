@@ -1,12 +1,43 @@
 body{
+    margin:0;
     background-color: black;
     color: white;
     font-family: 'Roboto';
 }
 .nav-bar{
     justify-content: flex-end;
+    
 }
 .nav-items{
     display: inline-block;
+    padding: 4vh 1vw;
+}
+.intro{
+    height: 90vh;
+}
+.about-me{
+    background-color: rgb(51, 51, 51);
+    padding: 10vh 5vw;
 
+}
+.about{
+    padding: 0 2vw;
+    line-height: 2rem;
+}
+.download-btn{
+    width: 15vw;
+    background-color: rgb(138, 138, 135);
+    border-radius: 10px;
+    padding:1vh;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    -ms-border-radius: 10px;
+    -o-border-radius: 10px;
+}
+.download-btn>img{
+    width: 1vw;
+    margin:0 1vw;
+}
+.img>img{
+    width: 15vw;
 }
