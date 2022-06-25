@@ -98,3 +98,77 @@ body{
     width: 40px;
     margin:2vw;
 }
+
+@media only screen and (max-width: 500px) {
+    body {
+      
+    }
+    .nav-bar{
+        justify-content: center;
+    }
+    .nav-items{
+        margin: 0 3vw;
+    }
+    .sintro{
+        margin-top: 15vh;
+    }
+    .pintro{
+        margin:2vh 5vw;
+        font-size: .8rem;
+    }
+    .about-me{
+        flex-direction: column;
+        align-items: center;
+    }
+    .download-btn{
+        width: 45vw;
+        background-color: rgb(138, 138, 135);
+        
+    }
+    .download-btn>img{
+        width: 3vw;
+        margin:0 1vw;
+    }
+    .download-btn>span{
+        
+    }
+    .img>img{
+        width: 25vw;
+    }
+    .projects{
+        background-color: #816797;
+        display: grid;
+        grid-template-columns: auto auto;
+        padding:3vw;
+        justify-content: center;
+    
+        /* width: 90vw; */
+    
+    }
+    .projects>a>div{
+        width: 30vw;
+        height:12vh;
+        background-color:#816797;
+        margin:3vw 5vw;
+        text-align: center;
+        font-size: .8rem;
+    }
+    .projects>a>div>img{    
+        width:100%;
+        height: 70%;
+        margin-bottom: 3%;
+    }
+    .Contact{
+        padding: 5%;
+        justify-content: center;
+        background-color: rgb(51, 51, 51) ;
+    }
+    .Contact>a>div>img{
+        width: 40px;
+        margin:2vw;
+    }
+    
+
+
+
+  }
