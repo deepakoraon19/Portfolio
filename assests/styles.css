@@ -109,6 +109,10 @@ body{
     .nav-items{
         margin: 0 3vw;
     }
+    .intro{
+        height: 80vh;
+    
+    }
     .sintro{
         margin-top: 15vh;
     }
