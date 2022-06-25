@@ -131,27 +131,29 @@ body{
     .about-me{
         flex-direction: column;
         align-items: center;
+        padding: 7vh 5vw;
     }
+
     .download-btn{
         width: 45vw;
         background-color: rgb(138, 138, 135);
+        margin-top: 10vw;
         
     }
     .download-btn>img{
         width: 3vw;
-        margin:0 1vw;
+        margin:0 2vw;
     }
-    .download-btn>span{
-        
-    }
+   
     .img>img{
         width: 25vw;
+        margin-bottom: 2vh;
     }
     .projects{
         /* background-color: #816797; */
         display: grid;
         grid-template-columns: auto auto;
-        padding:3vw;
+        padding:12vw 3vw;
         justify-content: center;
     
         /* width: 90vw; */
