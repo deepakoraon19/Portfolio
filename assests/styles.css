@@ -6,6 +6,7 @@ body{
 }
 .nav-bar{
     justify-content: flex-end;
+    margin-right: 2vw;;
     
 }
 .nav-items{
@@ -68,14 +69,11 @@ body{
 
 .projects{
     background-color: black;
-    /* background-color: #816797; */
     display: grid;
     grid-template-columns: auto auto auto;
     padding:3vw;
     justify-content: center;
-
-    /* width: 90vw; */
-
+    height: 100vh;
 }
 .projects>a>div{
     width: 12vw;
@@ -98,13 +96,30 @@ body{
     -o-border-radius: 2px;
 }
 .Contact{
-    padding: 5%;
+    padding: 3% ;
     justify-content: center;
     background-color: rgb(51, 51, 51) ;
+    flex-direction: column;
+    position: relative;
 }
-.Contact>a>div>img{
+.logo{
+    justify-content: center;
+}
+.Contact>div>a>div>img{
     width: 40px;
     margin:2vw;
+}
+.address{
+    width: fit-content;
+    font-size: .8rem;
+    margin: auto;
+    
+}
+.top-btn{
+    position: absolute;
+    bottom:7vh;
+    right:3vw;
+   
 }
 
 @media only screen and (max-width: 500px) {
