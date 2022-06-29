@@ -1,208 +1,179 @@
-body{
-    margin:0;
-    background-color: black;
-    color: white;
-    font-family: 'Roboto';
+body {
+  margin: 0;
+  background-color: black;
+  color: white;
+  font-family: "Roboto";
 }
-.nav-bar{
-    justify-content: flex-end;
-    margin-right: 2vw;;
-    
+.nav-bar {
+  justify-content: flex-end;
+  margin-right: 2vw;
 }
-.nav-items{
-    display: inline-block;
-    padding: 4vh 1vw;
+.nav-items {
+  display: inline-block;
+  padding: 4vh 1vw;
 }
-.intro{
-    height: 90vh;
-
+.intro {
+  height: 90vh;
 }
-.sintro{
-    margin:25vh 0 0 0;
-    text-align: center;
+.sintro {
+  margin: 25vh 0 0 0;
+  text-align: center;
 }
-.pintro{
-    text-align: center;    
+.pintro {
+  text-align: center;
 }
-.intro>div>span{
-    font-family: 'Kdam Thmor Pro';
-    font-size: 4rem;
-    text-align: center;
-    /* margin: 5vh; */
+.intro > div > span {
+  font-family: "Kdam Thmor Pro";
+  font-size: 4rem;
+  text-align: center;
 }
-.intro>span>p{
-    /* margin:auto; */
+.about-me {
+  background-color: rgb(51, 51, 51);
+  padding: 10vh 5vw;
 }
-.pintro{
-    /* margin:200px; */
+.about {
+  padding: 0 2vw;
+  margin: 0 2vw 0 3vw;
+  line-height: 2rem;
 }
-.about-me{
-    background-color: rgb(51, 51, 51);
-    padding: 10vh 5vw;
-
+.download-btn {
+  width: 15vw;
+  background-color: rgb(138, 138, 135);
+  border-radius: 10px;
+  padding: 1vh;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  -ms-border-radius: 10px;
+  -o-border-radius: 10px;
 }
-.about{
-    padding: 0 2vw;
-    margin:0 2vw 0 3vw;
-    line-height: 2rem;
+.download-btn > img {
+  width: 1vw;
+  margin: 0 1vw;
 }
-.download-btn{
-    width: 15vw;
-    background-color: rgb(138, 138, 135);
-    border-radius: 10px;
-    padding:1vh;
-    -webkit-border-radius: 10px;
-    -moz-border-radius: 10px;
-    -ms-border-radius: 10px;
-    -o-border-radius: 10px;
-}
-.download-btn>img{
-    width: 1vw;
-    margin:0 1vw;
-}
-.download-btn>span{
-    
-}
-.img>img{
-    width: 15vw;
-    border-radius: 100%;
-    -webkit-border-radius: 100%;
-    -moz-border-radius: 100%;
-    -ms-border-radius: 100%;
-    -o-border-radius: 100%;
+.img > img {
+  width: 15vw;
+  border-radius: 100%;
+  -webkit-border-radius: 100%;
+  -moz-border-radius: 100%;
+  -ms-border-radius: 100%;
+  -o-border-radius: 100%;
 }
 
-.projects{
-    background-color: black;
-    display: grid;
-    grid-template-columns: auto auto auto;
-    padding:3vw;
-    justify-content: center;
-    height: 100vh;
+.projects {
+  background-color: black;
+  display: grid;
+  grid-template-columns: auto auto auto;
+  padding: 3vw;
+  justify-content: center;
+  height: 100vh;
 }
-.projects>a>div{
-    width: 12vw;
-    height:19vh;    
-    /*background-color:#816797;    */
-    background-color:black;
-    margin:3vw;
-    text-align: center;
-    font-size: .8rem;
-    
+.projects > a > div {
+  width: 12vw;
+  height: 19vh;
+  background-color: black;
+  margin: 3vw;
+  text-align: center;
+  font-size: 0.8rem;
 }
-.projects>a>div>img{
-    width:100%;
-    border-radius: 2px;
-    height: 70%;
-    margin-bottom: 3%;
-    -webkit-border-radius: 2px;
-    -moz-border-radius: 2px;
-    -ms-border-radius: 2px;
-    -o-border-radius: 2px;
+.projects > a > div > img {
+  width: 100%;
+  border-radius: 2px;
+  height: 70%;
+  margin-bottom: 3%;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  -ms-border-radius: 2px;
+  -o-border-radius: 2px;
 }
-.Contact{
-    padding: 3% ;
-    justify-content: center;
-    background-color: rgb(51, 51, 51) ;
-    flex-direction: column;
-    position: relative;
+.Contact {
+  padding: 3%;
+  justify-content: center;
+  background-color: rgb(51, 51, 51);
+  flex-direction: column;
+  position: relative;
 }
-.logo{
-    justify-content: center;
+.logo {
+  justify-content: center;
 }
-.Contact>div>a>div>img{
-    width: 40px;
-    margin:2vw;
+.Contact > div > a > div > img {
+  width: 40px;
+  margin: 2vw;
 }
-.address{
-    width: fit-content;
-    font-size: .8rem;
-    margin: auto;
-    
+.address {
+  width: fit-content;
+  font-size: 0.8rem;
+  margin: auto;
 }
-.top-btn{
-    position: absolute;
-    bottom:7vh;
-    right:3vw;
-   
+.top-btn {
+  position: absolute;
+  bottom: 7vh;
+  right: 3vw;
 }
 
 @media only screen and (max-width: 500px) {
-    body {
-      
-    }
-    .nav-bar{
-        justify-content: center;
-    }
-    .nav-items{
-        margin: 0 3vw;
-    }
-    .intro{
-        height: 80vh;
-    
-    }
-    .sintro{
-        margin-top: 15vh;
-    }
-    .pintro{
-        margin:2vh 5vw;
-        font-size: .8rem;
-    }
-    .about-me{
-        flex-direction: column;
-        align-items: center;
-        padding: 7vh 5vw;
-    }
-
-    .download-btn{
-        width: 45vw;
-        background-color: rgb(138, 138, 135);
-        margin-top: 10vw;
-        
-    }
-    .download-btn>img{
-        width: 3vw;
-        margin:0 2vw;
-    }
-   
-    .img>img{
-        width: 25vw;
-        margin-bottom: 2vh;
-    }
-    .projects{
-        /* background-color: #816797; */
-        display: grid;
-        grid-template-columns: auto auto;
-        padding:12vw 3vw;
-        justify-content: center;
-    
-        /* width: 90vw; */
-    
-    }
-    .projects>a>div{
-        width: 30vw;
-        height:12vh;
-        /* background-color:#816797; */
-        margin:3vw 5vw;
-        text-align: center;
-        font-size: .8rem;
-    }
-    .projects>a>div>img{    
-        width:100%;
-        height: 70%;
-        margin-bottom: 3%;
-    }
-    .Contact{
-        padding: 5%;
-        justify-content: center;
-        background-color: rgb(51, 51, 51) ;
-    }
-    .Contact>a>div>img{
-        width: 40px;
-        margin:5vw 2vw;
-    }
-    
-
-
-
+  body {
   }
+  .nav-bar {
+    justify-content: center;
+  }
+  .nav-items {
+    margin: 0 3vw;
+  }
+  .intro {
+    height: 80vh;
+  }
+  .sintro {
+    margin-top: 15vh;
+  }
+  .pintro {
+    margin: 2vh 5vw;
+    font-size: 0.8rem;
+  }
+  .about-me {
+    flex-direction: column;
+    align-items: center;
+    padding: 7vh 5vw;
+  }
+
+  .download-btn {
+    width: 45vw;
+    background-color: rgb(138, 138, 135);
+    margin-top: 10vw;
+  }
+  .download-btn > img {
+    width: 3vw;
+    margin: 0 2vw;
+  }
+
+  .img > img {
+    width: 25vw;
+    margin-bottom: 2vh;
+  }
+  .projects {
+    display: grid;
+    grid-template-columns: auto auto;
+    padding: 12vw 3vw;
+    justify-content: center;
+  }
+  .projects > a > div {
+    width: 30vw;
+    height: 12vh;
+    margin: 3vw 5vw;
+    text-align: center;
+    font-size: 0.8rem;
+  }
+  .projects > a > div > img {
+    width: 100%;
+    height: 70%;
+    margin-bottom: 3%;
+  }
+  .Contact {
+    padding: 5%;
+    justify-content: center;
+    background-color: rgb(51, 51, 51);
+  }
+  .Contact > a > div > img {
+    width: 40px;
+    margin: 5vw 2vw;
+  }
+}
